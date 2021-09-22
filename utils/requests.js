@@ -12,5 +12,22 @@ export default {
     fetchActionMovies: {
         title: "Action",
         url: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
-    }
+    },
+    fetchRomanceMovies: {
+        title: "Romance",
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
+    },
+    fetchCrimeMovies: {
+        title: "Crime",
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=80`,
+    },
+    fetchComedyMovies: {
+        title: "Comedy",
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
+    },
+    fetchAdventureMovies: {
+        title: "Adventure",
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=12`,
+    },
+
 }
